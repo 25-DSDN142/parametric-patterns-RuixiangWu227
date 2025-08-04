@@ -1,54 +1,156 @@
-You will need to fill out this file for hand in. 
+wallpaper1:  
+petalCount = 4;  
+petalLength = 80;  
+petalWidth = 30;  
+centerSize = 40;  
+rotationOffset = 0;  
 
-The bellow is just an example, feel free to disregard this documents contents.
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
 
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50; 
 
-Your final settings.txt will look something like this when you are finished:
+wallpaper2:  
+petalCount = 6;  
+petalLength = 100;  
+petalWidth = 40;  
+centerSize = 30;  
+rotationOffset = 15;  
 
-/////////////////////////////////
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
 
-Wallpaper 1:
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+wallpaper3:  
+petalCount = 8;  
+petalLength = 120;  
+petalWidth = 20;  
+centerSize = 20;  
+rotationOffset = 30;  
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;  
 
-/////////////////////////////////
+wallpaper4:  
+petalCount = 5;  
+petalLength = 90;  
+petalWidth = 60;  
+centerSize = 25;  
+rotationOffset = 45;  
 
-Wallpaper 2:
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+wallpaper5:  
+petalCount = 7;  
+petalLength = 70;  
+petalWidth = 35;  
+centerSize = 50;  
+rotationOffset = 10;  
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
+
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;  
+
+wallpaper6:  
+petalCount = 3;  
+petalLength = 100;  
+petalWidth = 80;  
+centerSize = 15;  
+rotationOffset = 60;  
+
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
+
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;  
+}  
+
+wallpaper7:  
+petalCount = 10;  
+petalLength = 60;  
+petalWidth = 25;  
+centerSize = 30;  
+rotationOffset = 5;  
+
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
+
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;  
+}  
+
+wallpaper8:  
+petalCount = 6;  
+petalLength = 110;  
+petalWidth = 45;  
+centerSize = 30;  
+rotationOffset = 90;  
+
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
+
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;  
+} 
+
+wallpaper9:  
+petalCount = 5;  
+petalLength = 100;  
+petalWidth = 30;  
+centerSize = 40;  
+rotationOffset = 120;  
+
+function setup_wallpaper(pWallpaper) {  
+  pWallpaper.output_mode(GRID_WALLPAPER);  
+  pWallpaper.resolution(NINE_LANDSCAPE);  
+  pWallpaper.show_guide(false);  
+
+  // Grid settings  
+  pWallpaper.grid_settings.cell_width = 100;  
+  pWallpaper.grid_settings.cell_height = 100;  
+  pWallpaper.grid_settings.row_offset   = 50;
+} 
